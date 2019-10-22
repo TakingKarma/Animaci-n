@@ -19,15 +19,30 @@
             height: 200px;
             background: blue;
             margin: 20px;
+            transition: .3s;
         }
         .container{
             border: 1px solid red;
+        }
+        .container:hover .cuadrado{
+            /* transform: rotate(45deg); */
+            /* transform: rotate(-45deg); */
+            /* transform: rotateX(45deg); */
+            /* transform: rotateY(45deg); */
+            /* transform: rotateZ(45deg); */
+            /* transform: rotateX(45deg) rotateY(45deg) rotate(45deg); */
+            /* transform: rotate3d(x, y, z rotate) */
+            /* transform: rotate3d(1, 0, 0, 45deg); */
+            /* transform: rotate3d(0, 1, 0, 45deg); */
+            transform: rotate3d(1, 1, 1, 45deg);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="cuadrado"></div>
+        <div class="cuadrado">
+            Ricardo
+        </div>
     </div>
 </body>
 </html>
